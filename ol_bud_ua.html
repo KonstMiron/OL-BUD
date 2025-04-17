@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OL&BUD</title>
+    <link rel="icon" href="img/build_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style_ua.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gotu&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="floating-profile">
+    <a href="#main">
+    <img src="img/arrow_const.png" alt="Profile Picture">
+  </a>
+</div>
+  <header class="header">
+    <div class="container">
+   
+         <a href="#main">
+        <div class="logo">
+            <img src="img/logo.png" alt="Логотип">
+        </div> 
+      </a>
+
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#about-section">ПРО НАС</a></li>
+                <li><a href="#services-section">ПОСЛУГИ</a></li>
+                <li><a href="#gallery-section">ГАЛЕРЕЯ</a></li>
+                <li><a href="#contact-section">ПОВІДОМЛЕННЯ</a></li>
+                <li><a href="#footer">КОНТАКТИ</a></li>
+            </ul>
+        </nav>
+
+
+         <a href="index.html" class="link">
+        <div class="language-switcher">
+            <img src="img/PL.png" alt="PL">
+            <span>PL</span>
+        </div></a>
+
+
+        <div class="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+
+        <div class="mobile-menu">
+            <a href="#about-section">ПРО НАС</a>
+            <a href="#services-section">ПОСЛУГИ</a>
+            <a href="#gallery-section">ГАЛЕРЕЯ</a>
+            <a href="#contact-section">ПОВІДОМЛЕННЯ</a>
+            <a href="#contact-section">КОНТАКТИ</a>
+        </div>
+    </div>
+</header>
+    <main  id="main">
+        <div class="slider-container" >
+            <div class="slides">
+                <div class="slide">
+                    <div class="centered-text">
+                        <div class="slide-text">
+                            <h1>Будуємо з душею, створюємо з пристрастю</h1>
+                            <p>кожна деталь має для нас значення</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="centered-text">
+                        <div class="slide-text">
+                            <h1>Якість, що радує роками</h1>
+                            <p>довговічність та естетика на довгі роки</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="centered-text">
+                        <div class="slide-text">
+                            <h1>Надійність, своєчасність, <br>професіоналізм – це нас вирізняє</h1>
+                            <p>сумлінність і завжди вчасно</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-arrow prev" onclick="changeSlide(-1)">&#10094;</div>
+            <div class="nav-arrow next" onclick="changeSlide(1)">&#10095;</div>
+            <div class="dots">
+                <div class="dot" onclick="goToSlide(0)"></div>
+                <div class="dot" onclick="goToSlide(1)"></div>
+                <div class="dot" onclick="goToSlide(2)"></div>
+            </div>
+        </div>
+    </main>
+    <section class="about-section" id="about-section">
+        <div class="about-container">
+          <div class="about-image">
+            <img src="img/handshake.jpg" alt="Handshake">
+          </div>
+          <div class="about-content">
+            <h2>Про нас</h2>
+            <p>
+                Компанія <strong>“OL&BUD.PL”</strong> – це місцева ремонтна компанія, що працює в Любліні.
+                Наша пропозиція включає ремонтні та оздоблювальні роботи. Ми працюємо переважно в Любліні та околицях.
+            </p>
+            <p>
+                Нашими перевагами є індивідуальний підхід до кожного клієнта, приємне та професійне обслуговування.
+                Ми докладаємо всіх зусиль, щоб наші послуги виконувалися якісно та вчасно.                
+            </p>
+            <p>
+                Досвід та професіоналізм – це риси, які відрізняють нашу компанію.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>5</h3>
+                <p> років досвіду</p>
+              </div>
+              <div class="stat">
+                <h3>8+</h3>
+                <p>спеціалістів</p>
+              </div>
+              <div class="stat">
+                <h3>300+</h3>
+                <p>завершених проєктів</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="full-width-block"></div>
+      <section class="features-section">
+        <div class="features-blok">
+        <div class="features-content-linii">
+          <img src="img/linii.png" class="features-linii">
+        </div>
+        <div class="features-content">
+          <h2 class="features-title">Що нас вирізняє?</h2>
+          <div class="features-container">
+            <div class="feature-item">
+              <img src="img/Done.png" alt="">
+                <div class="feature-header">
+                  <h3 class="feature-heading">НАДІЙНІ ВИКОНАВЦІ</h3>
+                  <p class="feature-text">Професіонали, на яких можна <br> покластися.</p>
+                  </div>
+                </div>
+                
+              <div class="feature-item">
+                <img src="img/Done.png" alt="">
+                <div class="feature-header">  
+                  <h3 class="feature-heading">СВОЄЧАСНІСТЬ</h3>
+                  <p class="feature-text">Роботи виконуються згідно з <br> узгодженим графіком.</p>
+                </div>
+                
+              </div>
+              <div class="feature-item">
+                <img src="img/Done.png" alt="">
+                <div class="feature-header">
+                  <h3 class="feature-heading">РЕМОНТИ ВІД А ДО Я</h3>
+                  <p class="feature-text">Комплексні послуги – від проєкту<br> до оздоблення.</p>
+              </div>
+                </div>
+          
+              <div class="feature-item">
+                <img src="img/Done.png" alt="">
+                <div class="feature-header">
+                  <h3 class="feature-heading">ДОСТУПНІ ЦІНИ</h3>
+                  <p class="feature-text">Висока якість за розумною ціною.</p>
+                </div>
+               
+              </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="services-section" id="services-section">
+        <div class="services-container">
+            <div class="service-box">
+                <img src="img/worker-icon.png" alt="Główne usługi" class="service-icon">
+                <h3 class="service-title">Основні послуги:</h3>
+                <ul class="service-list">
+                    <li>Шпаклювання</li>
+                    <li>Фарбування</li>
+                    <li>Гіпсокартонні конструкції</li>
+                    <li>Панелі</li>
+                    <li>Оклеювання шпалерами</li>
+                    <li>Кахель</li>
+                    <li>Глазур</li>
+                    <li>Плитка</li>
+                    <li>Встановлення дверей і вікон</li>
+                    <li>Натяжні стелі</li>
+                    <li>Підлоги</li>
+                    <li>Ванні кімнати</li>
+                    <li>та багато інших</li>
+                </ul>
+            </div>
+            
+            <div class="service-box">
+                <img src="img/roller-icon.png" alt="Dodatkowe usługi" class="service-icon">
+                <h3 class="service-title">Додаткові послуги:</h3>
+                <ul class="service-list">
+                    <li>Фасади</li>
+                    <li>Утеплення будівель</li>
+                    <li>Мулярські роботи</li>
+                    <li>Монтаж/збірка меблів (у тому числі кухонних)</li>
+                    <li>Димоходи</li>
+                </ul>
+                <p class="service-note"><strong>та багато інших робіт за бажанням клієнта.</strong></p>
+            </div>
+        </div>
+        
+        <div class="services-image">
+            <img src="img/living-room.jpg" alt="Living Room" class="services-bg">
+        </div>
+        <div class="services-container-phone">
+          <div class="service-box box1">
+              <img src="img/worker-icon.png" alt="Główne usługi" class="service-icon">
+              <h3 class="service-title">Основні послуги:</h3>
+              <ul class="service-list">
+                <li>Шпаклювання</li>
+                <li>Фарбування</li>
+                <li>Гіпсокартонні конструкції</li>
+                <li>Панелі</li>
+                <li>Оклеювання шпалерами</li>
+                <li>Кахель</li>
+                <li>Глазур</li>
+                <li>Плитка</li>
+                <li>Встановлення дверей і вікон</li>
+                <li>Натяжні стелі</li>
+                <li>Підлоги</li>
+                <li>Ванні кімнати</li>
+                <li>та багато інших</li>
+              </ul>
+          </div>
+          
+          <div class="service-box">
+              <img src="img/roller-icon.png" alt="Dodatkowe usługi" class="service-icon">
+              <h3 class="service-title">Додаткові послуги:</h3>
+              <ul class="service-list">
+                <li>Фасади</li>
+                <li>Утеплення будівель</li>
+                <li>Мулярські роботи</li>
+                <li>Монтаж/збірка меблів (у тому числі кухонних)</li>
+                <li>Димоходи</li>
+              </ul>
+              <p class="service-note"><strong>та багато інших робіт за бажанням клієнта.</strong></p>
+          </div>
+      </div>
+    </section>
+    <section class="gallery-section" id="gallery-section">
+      <div class="div-gallery-title">
+        <h2 class="gallery-title">Галерея</h2>
+      </div>
+      <div class="gallery-container">
+          <div class="gallery-item">
+              <img src="img/galeria1.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria2.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria3.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria4.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria5.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria6.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria7.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria8.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria9.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria10.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria11.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria12.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria13.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria14.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria15.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria16.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria17.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria18.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria19.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria20.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria21.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria22.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria23.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria24.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+      </div>
+  
+
+      <div id="imageModal" class="modal" onclick="closeModal()">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modalImage">
+      </div>
+  </section>
+  <section class="facebook-section">
+    <div class="facebook-container">
+        <div class="facebook-image">
+            <img src="img/tel_facebook.png" alt="Facebook Page">
+        </div>
+        <div class="facebook-content">
+            <h2>Наш Facebook</h2>
+          <p>Приєднуйтесь до нас у Facebook, де ми публікуємо та ділимося результатами наших ремонтів.</p>
+            <a href="https://www.facebook.com/share/197GvpuBpJ/?mibextid=wwXIfr" target="_blank" class="facebook-link">
+                <img src="img/facebook.png" alt="Facebook Icon">
+            </a>
+        </div>
+    </div>
+    <div class="facebook-container-phone">
+
+      <div class="facebook-content">
+          <h2>Наш Facebook</h2>
+          <p>Приєднуйтесь до нас у Facebook, де ми публікуємо та ділимося результатами наших ремонтів.</p>
+          <a href="https://www.facebook.com/share/197GvpuBpJ/?mibextid=wwXIfr" target="_blank" class="facebook-link">
+              <img src="img/facebook.png" alt="Facebook Icon">
+          </a>
+      </div>
+      <div class="facebook-image">
+        <img src="img/tel_facebook.png" alt="Facebook Page">
+    </div>
+  </div>
+   
+</section> 
+<div class="facebook-line">
+    </div>
+  <section class="contact-section" id="contact-section">
+    <div class="contact-container">
+        <h2>Маєте запитання?</h2>
+        <h3 class="contact-title">Зв'яжіться з нами!</h3>
+        <form id="contact-form" action="send_mail.php" method="post">
+            <div class="form-group">
+                <div class="input-container">
+                    <label for="name">Ім'я та Прізвище</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </div>
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+                <label for="message">Повідомлення</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+                <img src="img/wyslij_ua.png" alt="" class="wyslij-img"> 
+                <img src="img/Arrow.png" alt="" class="arrow">
+            </button>
+        </form>
+    </div>
+</section>
+<footer class="footer" id="footer">
+  <div class="footer-container">
+      <div class="footer-logo">
+          <img src="img/logo.png" alt="OL&BUD.PL">
+      </div>
+      <div class="footer-menu">
+          <div class="footer-column">
+              <a href="#about-section">ПРО НАС</a>
+          </div>
+          <div class="footer-column">
+            <a href="#services-section">ПОСЛУГИ</a>
+          </div>
+          <div class="footer-column">
+            <a href="#gallery-section">ГАЛЕРЕЯ</a>
+            
+          </div>
+          <div class="footer-column">
+            <a href="#contact-section">ПОВІДОМЛЕННЯ</a>
+          </div>
+          <div class="footer-column">
+            <h2> <span class="footer-tel">+48 600 791 423</span></h2>
+            <h2>al.cawa84@gmail.com</h2>
+            <h2>www.ol-bud.pl</h2> 
+            <h2>NIP  7213450336</h2>
+          </div>
+      </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

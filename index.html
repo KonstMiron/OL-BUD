@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OL&BUD</title>
+    <link rel="icon" href="img/build_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gotu&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="floating-profile">
+    <a href="#main">
+    <img src="img/arrow_const.png" alt="Profile Picture">
+  </a>
+</div>
+  <header class="header">
+    <div class="container">
+ 
+         <a href="#main">
+        <div class="logo">
+            <img src="img/logo.png" alt="Логотип">
+        </div> 
+      </a>
+
+      
+        <nav class="nav">
+            <ul>
+                <li><a href="#about-section">O NAS</a></li>
+                <li><a href="#services-section">USŁUGI</a></li>
+                <li><a href="#gallery-section">GALERIA</a></li>
+                <li><a href="#contact-section">WIADOMOŚĆ</a></li>
+                <li><a href="#footer">KONTAKT</a></li>
+            </ul>
+        </nav>
+
+      
+         <a href="ol_bud_ua.html" class="link">
+        <div class="language-switcher">
+            <img src="img/ua.png" alt="UA">
+            <span>UA</span>
+        </div></a>
+
+      
+        <div class="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        
+        <div class="mobile-menu">
+          <a onclick="location.href='#about-section'">O NAS</a>
+            <a href="#services-section">USŁUGI</a>
+            <a href="#footer">GALERIA</a>
+            <a href="#contact-section">WIADOMOŚĆ</a>
+            <a href="#footer">KONTAKT</a>
+        </div>
+    </div>
+</header>
+    <main  id="main">
+        <div class="slider-container" >
+            <div class="slides">
+                <div class="slide">
+                    <div class="centered-text">
+                        <div class="slide-text">
+                            <h1>Budujemy z sercem, tworzymy z pasją</h1>
+                            <p>każdy detal ma dla nas znaczenie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="centered-text">
+                        <div class="slide-text">
+                            <h1>Jakość, która cieszy przez lata</h1>
+                            <p>trwałość i estetyka na długie lata</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="centered-text">
+                        <div class="slide-text">
+                            <h1>Solidność, terminowość, <br> profesjonalizm – to nas wyróżnia</h1>
+                            <p>rzetelnie i zawsze na czas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-arrow prev" onclick="changeSlide(-1)">&#10094;</div>
+            <div class="nav-arrow next" onclick="changeSlide(1)">&#10095;</div>
+            <div class="dots">
+                <div class="dot" onclick="goToSlide(0)"></div>
+                <div class="dot" onclick="goToSlide(1)"></div>
+                <div class="dot" onclick="goToSlide(2)"></div>
+            </div>
+        </div>
+    </main>
+    <section class="about-section" id="about-section">
+        <div class="about-container">
+          <div class="about-image">
+            <img src="img/handshake.jpg" alt="Handshake">
+          </div>
+          <div class="about-content">
+            <h2>O NAS</h2>
+            <p>
+              Firma <strong>“OL&BUD.PL”</strong> to lokalna firma remontowa działająca w Lublinie. 
+              Nasza oferta obejmuje prace remontowe i wykończeniowe. Pracujemy głównie na terenie Lublina i okolic.
+            </p>
+            <p>
+              Naszymi atutami są indywidualne podejście do każdego klienta, miła i profesjonalna obsługa. 
+              Dokładamy wszelkich starań, aby nasze usługi były wykonane solidnie i terminowo.
+            </p>
+            <p>
+              Doświadczenie i profesjonalizm to cechy, które wyróżniają naszą firmę.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>5</h3>
+                <p>lat doświadczenia</p>
+              </div>
+              <div class="stat">
+                <h3>8+</h3>
+                <p>specjalistów</p>
+              </div>
+              <div class="stat">
+                <h3>300+</h3>
+                <p>wykończonych projektów</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="full-width-block"></div>
+      <section class="features-section">
+        <div class="features-blok">
+        <div class="features-content-linii">
+          <img src="img/linii.png" class="features-linii">
+        </div>
+        <div class="features-content">
+          <h2 class="features-title">Co nas wyróżnia?</h2>
+          <div class="features-container">
+            <div class="feature-item">
+              <img src="img/Done.png" alt="">
+                <div class="feature-header">
+                  <h3 class="feature-heading">ZAUFANI WYKONAWCY</h3>
+                  <p class="feature-text">Profesjonaliści, na których możesz <br> polegać.</p>
+                  </div>
+                </div>
+                
+              <div class="feature-item">
+                <img src="img/Done.png" alt="">
+                <div class="feature-header">  
+                  <h3 class="feature-heading">TERMINOWOŚĆ</h3>
+                  <p class="feature-text">Prace realizowane zgodnie z <br> ustalonym harmonogramem.</p>
+                </div>
+                
+              </div>
+              <div class="feature-item">
+                <img src="img/Done.png" alt="">
+                <div class="feature-header">
+                  <h3 class="feature-heading">REMONTY OD A DO Z</h3>
+                  <p class="feature-text">Kompleksowe usługi, od projektu <br> po wykończenie.</p>
+              </div>
+                </div>
+          
+              <div class="feature-item">
+                <img src="img/Done.png" alt="">
+                <div class="feature-header">
+                  <h3 class="feature-heading">PRZYSTĘPNE CENY</h3>
+                  <p class="feature-text">Wysoka jakość w rozsądnej cenie.</p>
+                </div>
+               
+              </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="services-section" id="services-section">
+        <div class="services-container">
+            <div class="service-box">
+                <img src="img/worker-icon.png" alt="Główne usługi" class="service-icon">
+                <h3 class="service-title">Główne usługi:</h3>
+                <ul class="service-list">
+                    <li>Szpachlowanie</li>
+                    <li>Malowanie</li>
+                    <li>Zabudowy gipsowo-kartonowe</li>
+                    <li>Panele</li>
+                    <li>Tapetowanie</li>
+                    <li>Kafelki</li>
+                    <li>Glazura</li>
+                    <li>Płytki</li>
+                    <li>Montaż drzwi i okien</li>
+                    <li>Sufity podwieszane</li>
+                    <li>Podłogi</li>
+                    <li>Łazienki</li>
+                    <li>i wiele innych</li>
+                </ul>
+            </div>
+            
+            <div class="service-box">
+                <img src="img/roller-icon.png" alt="Dodatkowe usługi" class="service-icon">
+                <h3 class="service-title">Dodatkowe usługi:</h3>
+                <ul class="service-list">
+                    <li>Elewacje</li>
+                    <li>Ocieplanie budynków</li>
+                    <li>Prace murarskie</li>
+                    <li>Montaż/składanie mebli (w tym mebli kuchennych)</li>
+                    <li>Kominy</li>
+                </ul>
+                <p class="service-note">oraz <strong>wiele innych prac według życzenia klienta.</strong></p>
+            </div>
+        </div>
+        
+        <div class="services-image">
+            <img src="img/living-room.jpg" alt="Living Room" class="services-bg">
+        </div>
+        <div class="services-container-phone">
+          <div class="service-box box1">
+              <img src="img/worker-icon.png" alt="Główne usługi" class="service-icon">
+              <h3 class="service-title">Główne usługi:</h3>
+              <ul class="service-list">
+                  <li>Szpachlowanie</li>
+                  <li>Malowanie</li>
+                  <li>Zabudowy gipsowo-kartonowe</li>
+                  <li>Panele</li>
+                  <li>Tapetowanie</li>
+                  <li>Kafelki</li>
+                  <li>Glazura</li>
+                  <li>Płytki</li>
+                  <li>Montaż drzwi i okien</li>
+                  <li>Sufity podwieszane</li>
+                  <li>Podłogi</li>
+                  <li>Łazienki</li>
+                  <li>i wiele innych</li>
+              </ul>
+          </div>
+          
+          <div class="service-box">
+              <img src="img/roller-icon.png" alt="Dodatkowe usługi" class="service-icon">
+              <h3 class="service-title">Dodatkowe usługi:</h3>
+              <ul class="service-list">
+                  <li>Elewacje</li>
+                  <li>Ocieplanie budynków</li>
+                  <li>Prace murarskie</li>
+                  <li>Montaż/składanie mebli (w tym mebli kuchennych)</li>
+                  <li>Kominy</li>
+              </ul>
+              <p class="service-note">oraz <strong>wiele innych prac według życzenia klienta.</strong></p>
+          </div>
+      </div>
+    </section>
+    <section class="gallery-section" id="gallery-section">
+      <div class="div-gallery-title">
+        <h2 class="gallery-title">Galeria</h2>
+      </div>
+      <div class="gallery-container">
+          <div class="gallery-item">
+              <img src="img/galeria1.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria2.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria3.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria4.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria5.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria6.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria7.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+              <img src="img/galeria8.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria9.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria10.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria11.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria12.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria13.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria14.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria15.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria16.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria17.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria18.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria19.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria20.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria21.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria22.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria23.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria24.jpg" alt="Gallery Image" onclick="openModal(this)">
+          </div>
+      </div>
+  
+    
+      <div id="imageModal" class="modal" onclick="closeModal()">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modalImage">
+      </div>
+  </section>
+  <section class="facebook-section">
+    <div class="facebook-container">
+        <div class="facebook-image">
+            <img src="img/tel_facebook.png" alt="Facebook Page">
+        </div>
+        <div class="facebook-content">
+            <h2>NASZ FACEBOOK</h2>
+            <p>Dołącz do nas na Facebooku, gdzie publikujemy i dzielimy się efektami naszych remontów.</p>
+            <a href="https://www.facebook.com/share/197GvpuBpJ/?mibextid=wwXIfr" target="_blank" class="facebook-link">
+                <img src="img/facebook.png" alt="Facebook Icon">
+            </a>
+        </div>
+    </div>
+    <div class="facebook-container-phone">
+
+      <div class="facebook-content">
+          <h2>NASZ FACEBOOK</h2>
+          <p>Dołącz do nas na Facebooku, gdzie publikujemy i dzielimy się efektami naszych remontów.</p>
+          <a href="https://www.facebook.com/share/197GvpuBpJ/?mibextid=wwXIfr" target="_blank" class="facebook-link">
+              <img src="img/facebook.png" alt="Facebook Icon">
+          </a>
+      </div>
+      <div class="facebook-image">
+        <img src="img/tel_facebook.png" alt="Facebook Page">
+    </div>
+  </div>
+   
+</section> 
+<div class="facebook-line">
+    </div>
+  <section class="contact-section" id="contact-section">
+    <div class="contact-container">
+        <h2>Masz pytanie?</h2>
+        <h3 class="contact-title">Skontaktuj się z nami!</h3>
+        <form id="contact-form" action="send_mail.php" method="post">
+            <div class="form-group">
+                <div class="input-container">
+                    <label for="name">Imię i Nazwisko</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Telefon</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </div>
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+                <label for="message">Wiadomość</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+                <img src="img/wyslij.png" alt="" class="wyslij-img"> 
+                <img src="img/Arrow.png" alt="" class="arrow">
+            </button>
+        </form>
+    </div>
+</section>
+<footer class="footer" id="footer">
+  <div class="footer-container">
+      <div class="footer-logo">
+          <img src="img/logo.png" alt="OL&BUD.PL">
+      </div>
+      <div class="footer-menu">
+          <div class="footer-column">
+              <a href="#about-section">O NAS</a>
+          </div>
+          <div class="footer-column">
+            <a href="#services-section">USŁUGI</a>
+          </div>
+          <div class="footer-column">
+            <a href="#gallery-section">GALERIA</a>
+            
+          </div>
+          <div class="footer-column">
+            <a href="#contact-section">WIADOMOŚĆ</a>
+          </div>
+          <div class="footer-column">
+            <h2> <span class="footer-tel">+48 600 791 423</span></h2>
+            <h2>al.cawa84@gmail.com</h2>
+            <h2>www.ol-bud.pl</h2> 
+            <h2>NIP  7213450336</h2>
+          </div>
+      </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
