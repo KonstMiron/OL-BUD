@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <div class="floating-profile">
@@ -65,7 +66,7 @@
             <div class="slides">
                 <div class="slide">
                     <div class="centered-text">
-                        <div class="slide-text">
+                        <div class="slide-text" data-aos="fade-up">
                             <h1>Budujemy z sercem, tworzymy z pasją</h1>
                             <p>każdy detal ma dla nas znaczenie</p>
                         </div>
@@ -99,7 +100,7 @@
     </main>
     <section class="about-section" id="about-section">
         <div class="about-container">
-          <div class="about-image">
+          <div class="about-image"  >
             <img src="img/handshake.jpg" alt="Handshake">
           </div>
           <div class="about-content">
@@ -139,7 +140,7 @@
           <img src="img/linii.png" class="features-linii">
         </div>
         <div class="features-content">
-          <h2 class="features-title">Co nas wyróżnia?</h2>
+          <h2 class="features-title" >Co nas wyróżnia?</h2>
           <div class="features-container">
             <div class="feature-item">
               <img src="img/Done.png" alt="">
@@ -425,5 +426,12 @@
   </div>
 </footer>
 <script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800, // тривалість анімації
+    once: true     // анімація лише один раз
+  });
+</script>
 </body>
 </html>
